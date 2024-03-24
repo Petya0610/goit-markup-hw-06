@@ -30,6 +30,13 @@ a {
   color: #2e2f42;
 }
 
+.header-menu {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
 .header-menu:hover {
   color: #404bbf;
 }
@@ -120,7 +127,7 @@ a {
 }
 
 .team {
-  background-color: #FFFFFF;
+  background-color: #F4F4FD;
 }
 
 .team-title {
@@ -150,6 +157,7 @@ a {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    background-color: #FFFFFF;
     color: #2e2f42;
     text-transform: capitalize;
 }
@@ -159,6 +167,7 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    background-color: #FFFFFF;
     color: #434455;
 }
 
