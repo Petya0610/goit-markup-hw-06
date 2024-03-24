@@ -10,6 +10,30 @@ a {
   text-decoration: none;
 }
 
+.header-logo {
+  font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+
+.header-logo-color {
+  color: #4d5ae5;
+}
+
+.header-menu:hover,
+.header-menu:focus,
+.header-menu:active {
+  color:#4d5ae5;
+}
+
+.header-contact:hover,
+.header-contact:focus,
+.header-contact:active {
+  color: #4d5ae5;
+}
 
 .hero {
   background: #2e2f42;
