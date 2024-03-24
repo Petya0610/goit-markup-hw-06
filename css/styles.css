@@ -10,13 +10,14 @@ a {
   text-decoration: none;
 }
 
+
 .header-logo {
   font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2e2f42;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
 }
 
 .header-logo-color {
@@ -35,8 +36,13 @@ a {
   color: #4d5ae5;
 }
 
-.hero {
+.hero-page {
+
+}
+
+.hero-section {
   background: #2e2f42;
+
 }
 
 .hero-title {
@@ -47,6 +53,7 @@ a {
     text-align: center;
     color: #fff;
 }
+   
 
 .hero-btn-main {
   font-weight: 500;
@@ -54,6 +61,13 @@ a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff
+}
+
+.hero-btn-main:hover,
+.hero-btn-main:focus,
+.hero-btn-main:active {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5
 }
 
 .advantages {
