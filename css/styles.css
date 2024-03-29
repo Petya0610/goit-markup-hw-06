@@ -4,12 +4,47 @@ body {
   background-color: #FFFFFF;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
 ul {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 a {
   text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+.container {
+  width: 1128px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 
@@ -62,7 +97,9 @@ a {
 
 
 .hero-page {
-
+  width: 1140px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .hero-section {
@@ -77,6 +114,8 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
+    margin: 0 auto;
 }
    
 
@@ -88,6 +127,7 @@ a {
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4D5AE5;
+    margin: 0 auto;
 }
 
 .hero-btn-main:hover,
@@ -98,10 +138,14 @@ a {
 }
 
 .advantages {
+  padding-top: 120px;
+  padding-bottom: 120px;
 
 }
 
 .advantages-list {
+  padding-right: 156px;
+  padding-left: 156px;
 
 }
 
@@ -127,6 +171,8 @@ a {
 
 .team {
   background-color: #F4F4FD;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-title {
@@ -170,7 +216,8 @@ a {
 }
 
 .portfolio {
-
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-title {
