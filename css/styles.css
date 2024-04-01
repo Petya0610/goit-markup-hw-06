@@ -37,9 +37,8 @@ address {
 
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .header {
@@ -51,24 +50,25 @@ address {
 
 .header-container {
   display: flex;
-}
+    align-items: center;
+  }
 
 
 .header-nav {
   display: flex;
-  align-items: center;
+    align-items: center;
 }
 
 
 .header-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  margin-right: 76px;
+      color: #4d5ae5;
+        font-family: Raleway, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        margin-right: 76px;
 }
 
 .header-logo-color {
@@ -79,10 +79,10 @@ address {
 }
 
 .header-menu-list {
-  display: flex;
+display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
+
 
 .header-menu {
   font-weight: 500;
@@ -90,7 +90,8 @@ address {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-right: 40px;
-
+  gap: 40px;
+  
 }
 
 .header-menu:hover {
@@ -102,18 +103,20 @@ address {
 }
 
 .header-address {
-  font-style: normal;
-  display: flex;
-  gap: 40px;
+      font-style: normal;
+        margin-left: auto;
 }
 
 .header-soc-list {
+  display: flex;
+    gap: 40px;
 }
 
 .header-contact {
   line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    display: flex;
 }
 
 .header-contact:hover,
@@ -232,7 +235,7 @@ address {
 }
 
 .team-image {
-
+display: block;
 }
 
 .team-subtitle {
