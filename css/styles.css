@@ -36,7 +36,7 @@ address {
 }
 
 .container {
-  width: 100%;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -45,6 +45,7 @@ address {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  display: flex;
 }
 
 .header-container {
@@ -52,9 +53,9 @@ address {
 }
 
 
-
 .header-nav {
   display: flex;
+  align-items: center;
 }
 
 
@@ -66,6 +67,7 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .header-logo-color {
@@ -77,6 +79,8 @@ address {
 
 .header-menu-list {
   display: flex;
+  gap: 40px;
+  padding: 24px 0;
 }
 
 .header-menu {
@@ -84,6 +88,8 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-right: 40px;
+
 }
 
 .header-menu:hover {
@@ -97,10 +103,10 @@ address {
 .header-address {
   font-style: normal;
   display: flex;
+  gap: 40px;
 }
 
 .header-soc-list {
-  display: flex;
 }
 
 .header-contact {
