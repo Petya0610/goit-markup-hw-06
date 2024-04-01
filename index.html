@@ -8,9 +8,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&amp;family=Roboto:wght@400;500;700&amp;display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
@@ -53,7 +61,7 @@
       </section>
       <section class="advantages">
         <div class="container">
-          <h2 hidden>advantages</h2>
+          <h2 class="features-title-main visually-hidden">Advantages</h2>
           <ul class="advantages-list">
             <li class="advantages-item">
               <h3 class="advantages-subtitle">Strategy</h3>
@@ -99,6 +107,10 @@
                 height="260"
                 alt="Mark Guerrero"
               />
+              <div class="team-cards-text-container">
+                <h3 class="person-name">Mark Guerrero</h3>
+                <p class="job-title">Product Designer</p>
+              </div>
               <h3 class="team-subtitle">Mark Guerrero</h3>
               <p class="team-item-title">Product Designer</p>
             </li>
@@ -111,6 +123,10 @@
                 height="260"
                 alt="Tom Ford"
               />
+              <div class="team-cards-text-container">
+                <h3 class="person-name">Tom Ford</h3>
+                <p class="job-title">Frontend Developer</p>
+              </div>
               <h3 class="team-subtitle">Tom Ford</h3>
               <p class="team-item-title">Frontend Developer</p>
             </li>
@@ -123,6 +139,10 @@
                 height="260"
                 alt="Camila Garcia"
               />
+              <div class="team-cards-text-container">
+                <h3 class="person-name">Camila Garcia</h3>
+                <p class="job-title">Marketing</p>
+              </div>
               <h3 class="team-subtitle">Camila Garcia</h3>
               <p class="team-item-title">Marketing</p>
             </li>
@@ -135,6 +155,10 @@
                 height="260"
                 alt="Daniel Wilson"
               />
+              <div class="team-cards-text-container">
+                <h3 class="person-name">Daniel Wilson</h3>
+                <p class="job-title">UI Designer</p>
+              </div>
               <h3 class="team-subtitle">Daniel Wilson</h3>
               <p class="team-item-title">UI Designer</p>
             </li>
@@ -153,8 +177,10 @@
                 height="300"
                 alt="Banking App"
               />
-              <h3 class="portfolio-sudtitle">Banking App</h3>
-              <p class="portfolio-item-title">App</p>
+              <div class="portfolio-card-item-text">
+                <h3 class="portfolio-sudtitle">Banking App</h3>
+                <p class="portfolio-item-title">App</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
@@ -164,8 +190,10 @@
                 height="300"
                 alt="Cashless Payment"
               />
-              <h3 class="portfolio-sudtitle">Cashless Payment</h3>
-              <p class="portfolio-item-title">Marketing</p>
+              <div class="portfolio-card-item-text">
+                <h3 class="portfolio-sudtitle">Cashless Payment</h3>
+                <p class="portfolio-item-title">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
@@ -175,8 +203,10 @@
                 height="300"
                 alt="Meditation App"
               />
-              <h3 class="portfolio-sudtitle">Meditation App</h3>
-              <p class="portfolio-item-title">App</p>
+              <div class="portfolio-card-item-text">
+                <h3 class="portfolio-sudtitle">Meditation App</h3>
+                <p class="portfolio-item-title">App</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
@@ -186,8 +216,10 @@
                 height="300"
                 alt="Taxi Service"
               />
-              <h3 class="portfolio-sudtitle">Taxi Service</h3>
-              <p class="portfolio-item-title">Marketing</p>
+              <div class="portfolio-card-item-text">
+                <h3 class="portfolio-sudtitle">Taxi Service</h3>
+                <p class="portfolio-item-title">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
@@ -197,8 +229,10 @@
                 height="300"
                 alt="Screen Illustrations"
               />
-              <h3 class="portfolio-sudtitle">Screen Illustrations</h3>
-              <p class="portfolio-item-title">Design</p>
+              <div class="portfolio-card-item-text">
+                <h3 class="portfolio-sudtitle">Screen Illustrations</h3>
+                <p class="portfolio-item-title">Design</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
@@ -208,8 +242,10 @@
                 height="300"
                 alt="Online Courses"
               />
-              <h3 class="portfolio-sudtitle">Online Courses</h3>
-              <p class="portfolio-item-title">Marketing</p>
+              <div class="portfolio-card-item-text">
+                <h3 class="portfolio-sudtitle">Online Courses</h3>
+                <p class="portfolio-item-title">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
