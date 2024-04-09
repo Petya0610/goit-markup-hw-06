@@ -169,6 +169,7 @@ color: #2e2f42;
   padding: 188px 0;
   max-width: 1440px;
   background-repeat: no-repeat;
+  margin: auto;
 }
 
 .hero-title {
@@ -241,6 +242,11 @@ position: absolute;
 
 .advantages-item {
   width: calc((100% - 72px) / 4);
+}
+
+.advantages-list-icon {
+  /* width: 64px;
+  height: 64px; */
 }
 
 .advantages-item-wrap {
@@ -329,6 +335,7 @@ display: block;
     background-color: #FFFFFF;
     color: #434455;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-icons-container {
@@ -338,10 +345,7 @@ display: block;
 .icon-list {
   display: flex;
   gap: 24px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 8px;
-  padding-bottom: 32px;
+  justify-content: center;
 }
 
 .icon-item {
@@ -404,8 +408,14 @@ padding: 120px 0;
 
 .portfolio-item:hover .portfolio-cover-text {
   transform: translateY(0);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
+.portfolio-item:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16),
+      0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 
 .portfolio-cover-wrap {
   position: relative;
@@ -465,7 +475,6 @@ padding: 120px 0;
 .footer-container {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
 }
 
 .accent {
@@ -473,7 +482,7 @@ padding: 120px 0;
 }
 
 .footer-div {
-
+  margin-left: 120px;
 }
 
 .footer-title {
