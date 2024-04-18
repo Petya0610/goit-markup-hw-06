@@ -649,6 +649,8 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   height: 100%;
   position: fixed;
   background-color:#2e2f42;
+  background-color: rgba(46, 47, 66, 0.4);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-open {
@@ -718,6 +720,16 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.model-open-btn:hover {
+  background-color: #404bbf;
+  border: none;
+}
+
+.model-open-btn:focus {
+  background-color: #404bbf;
+  border: none;
+}
+
 .modal-title {
 font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -749,7 +761,12 @@ font-family: "Roboto", sans-serif;
 }
 
 .modal-input:focus {
-  border-color: 1px solid #4d5ae5;
+  /* border-color: 1px solid #4d5ae5; */
+  border-color: #4D5AE5;
+}
+
+.modal-input + .modal-field-icon:focus {
+  fill: #4D5AE5;
 }
 
 .model-label {
@@ -835,11 +852,11 @@ position: absolute;
   }
 
     .modal-span {
+      display: inline-flex;
       width: 16px;
       height: 16px;
       border-radius: 2px;
       border: 1px solid rgba(46, 47, 66, 0.4);
-      display: inline-flex;
       justify-content: center;
       align-items: center;
       fill: transparent;
@@ -848,7 +865,7 @@ position: absolute;
       transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-.modal-input + span {
+.modal-input:checked + span {
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
