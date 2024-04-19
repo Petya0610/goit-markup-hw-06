@@ -870,6 +870,16 @@ position: absolute;
     overflow: hidden;
   }
 
+  .span {
+    display: inline-flex;
+  }
+
+    input:checked+label>span {
+      background-color: #404bbf;
+        border: none;
+        fill: #F4F4FD;
+    }
+
     .modal-span {
       display: inline-flex;
       width: 16px;
