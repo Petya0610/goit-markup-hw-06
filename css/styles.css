@@ -253,6 +253,7 @@ position: absolute;
 
 .advantages-item {
   /* width: calc((100% - 72px) / 4); */
+
 }
 
 .advantages-list-icon {
@@ -261,7 +262,8 @@ position: absolute;
 }
 
 .advantages-item-wrap {
-  display: flex;
+  display: none;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
   height: 112px;
