@@ -112,6 +112,7 @@ color: #2e2f42;
   gap: 40px;
   padding: 24px 0;
   display: block;
+  color: #2e2f42;
 }
 
 .header-menu-link {
@@ -639,6 +640,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-container-wrap {
+  margin-bottom: 72px;
   /* margin-right: 120px; */
   display: flex;
     flex-direction: column;
@@ -780,6 +782,8 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .footer-btn {
   border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
     /* padding: 8px 24px; */
     height: 40px;
     background-color: #4d5ae5;
@@ -1118,7 +1122,7 @@ position: absolute;
 
           .header-menu {
               position: relative;
-              color: #404bbf;
+              color: #2e2f42;
           }
 
           .header-address {
@@ -1127,14 +1131,14 @@ position: absolute;
 
           .header-soc-list {
             display: flex;
-            flex-direction: column;
-            gap: 12px;
+            flex-direction: row;
+            gap: 40px;
           }
 
           .header-contact {
             color: #434455;
               font-size: 12px;
-              line-height: 1.16;
+              line-height: 1.5;
               letter-spacing: 0.02em;
               transition: color cubic-bezier(0.4, 0, 0.2, 1);
             }
@@ -1218,6 +1222,7 @@ position: absolute;
 
            .footer-container-wrap {
               text-align: left;
+              align-items: flex-start;
            }
 
            .footer-div {
@@ -1225,7 +1230,7 @@ position: absolute;
            }
 
            .footer-title {
-            margin-left: auto;
+            /* margin-left: auto; */
            }
 
            .footer-sudtitle {
