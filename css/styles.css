@@ -190,28 +190,38 @@ color: #2e2f42;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+    background: #fcfcfc;
+}
+
+.mob-nav {
+  margin-bottom: auto;
 }
 
 .menu-close-btn {
-  display: block;
-  margin-left: auto;
-  margin-bottom: 24px;
-  align-self: flex-end;
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    margin-bottom: 24px;
-    background-color: #e7e9fc;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      display: block;
+        margin-left: auto;
+        border-radius: 50%;
+        border: none;
+        stroke-width: 1px;
+        stroke: #2e2f42;
+        border: 1px solid;
+        border-radius: 50%;
+        border-color: #e7e9fc;
+        background-color: E7E9FC;
+        width: 24px;
+        height: 24px;
+        margin-bottom: 24px;
 }
 
 .mob-menu-link {
-  font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11111;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+      font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        margin: auto;
 }
 
 .mob-menu-link:focus,
@@ -225,20 +235,31 @@ color: #2e2f42;
 
 .mob-close-icon {}
 
-.mob-menu-list {}
+.mob-menu-list {
+  /* margin-bottom: 0 auto; */
+      display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin-bottom: 48px;
+  
+}
 
 
 
 .header-menu-link {}
 
 .mob-address {
-    display: flex;
+    /* display: flex;
       flex-direction: column;
       justify-content: space-between;
-      margin-bottom: 48px;
+      margin-bottom: 48px; */
 }
 
 .mob-soc-list {
+      display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin-bottom: 48px;
   
 }
 
@@ -255,13 +276,16 @@ color: #2e2f42;
 }
 
 .mob-icon-list {
-  display: flex;
+  /* display: flex;
     gap: 40px;
     justify-content: center;
     align-items: center;
     padding-left: 16px;
     padding-right: 24px;
-    margin: 0 auto;
+    margin: 0 auto; */
+        display: flex;
+          flex-direction: row;
+          gap: 40px;
 }
 
 .mob-icon-item {
@@ -271,15 +295,17 @@ color: #2e2f42;
 }
 
 .mob-icon-link {
-  width: 100%;
-    height: 100%;
+  width: 40px;
+    height: 40px;
+    padding: 8px;
     background-color: #4d5ae5;
-    display: flex;
     border-radius: 50%;
-    align-items: center;
+    display: flex;
     justify-content: center;
+    align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+  }
+  
 
 .mob-icon-icon {
   fill: #f4f4fd;
@@ -354,9 +380,9 @@ color: #2e2f42;
 }
 
 .advantages {
-      padding: 120px 0;
-      padding-right: 16px;
-      padding-left: 16px;
+      padding: 96px 0;
+      /* padding-right: 16px;
+      padding-left: 16px; */
 }
 
 .visually-hidden {
@@ -429,7 +455,7 @@ position: absolute;
 
 .team {
   background-color: #f4f4fd;
-    padding: 120px 0;
+    padding: 96px 0;
 }
 
 .team-title {
@@ -633,14 +659,14 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .footer-container {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   flex-wrap: wrap;
   align-items: baseline;
   /* margin-right: 120px; */
 }
 
 .footer-container-wrap {
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
   /* margin-right: 120px; */
   display: flex;
     flex-direction: column;
@@ -1210,6 +1236,10 @@ position: absolute;
               width: calc((100% - 24px) / 2);
            }
 
+           .advantages-subtitle {
+            text-align: left;
+           }
+
            .team {
             background-color: #f4f4fd;
             padding: 96px 0;
@@ -1347,7 +1377,7 @@ position: absolute;
 
         .hero-title {
                   max-width: 496px;
-                    padding-bottom: 48px;
+                    /* padding-bottom: 48px; */
                     font-size: 56px;
                     margin-bottom: 48px;
         }
@@ -1394,6 +1424,7 @@ position: absolute;
           }
 
           .advantages-subtitle {
+            text-align: left;
             font-weight: 500;
               font-size: 20px;
               line-height: 1.2;
